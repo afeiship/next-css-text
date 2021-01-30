@@ -35,7 +35,7 @@
               .join(' ');
           }
 
-          inlineStyle.push(`${name}:${value};`);
+          inlineStyle.push(name + ':' + value + ';');
         });
         return inlineStyle.join(' ');
       }

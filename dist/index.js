@@ -2,8 +2,8 @@
  * name: @jswork/next-css-text
  * description: Dom css text.
  * homepage: https://github.com/afeiship/next-css-text
- * version: 1.0.0
- * date: 2021-01-30 21:20:39
+ * version: 1.0.1
+ * date: 2021-01-30 21:25:14
  * license: MIT
  */
 
@@ -44,7 +44,7 @@
               .join(' ');
           }
 
-          inlineStyle.push(`${name}:${value};`);
+          inlineStyle.push(name + ':' + value + ';');
         });
         return inlineStyle.join(' ');
       }
