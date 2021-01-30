@@ -1,7 +1,39 @@
 # next-css-text
-> Dom css text
+> Dom css text.
 
-## install:
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
+
+## installation
 ```bash
-npm install -S afeiship/next-css-text --registry=https://registry.npm.taobao.org
+npm install -S @jswork/next-css-text
 ```
+
+## apis
+| api | params | description   |
+|-----|--------|---------------|
+| get | -      | desc balabala |
+
+## usage
+```js
+import NxCssText from '@jswork/next-css-text';
+
+// code goes here:
+```
+
+## license
+Code released under [the MIT license](https://github.com/afeiship/next-css-text/blob/master/LICENSE.txt).
+
+[version-image]: https://img.shields.io/npm/v/@jswork/next-css-text
+[version-url]: https://npmjs.org/package/@jswork/next-css-text
+
+[license-image]: https://img.shields.io/npm/l/@jswork/next-css-text
+[license-url]: https://github.com/afeiship/next-css-text/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-css-text
+[size-url]: https://github.com/afeiship/next-css-text/blob/master/dist/next-css-text.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-css-text
+[download-url]: https://www.npmjs.com/package/@jswork/next-css-text
