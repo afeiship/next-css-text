@@ -12,15 +12,22 @@ npm install -S @jswork/next-css-text
 ```
 
 ## apis
-| api | params | description   |
-|-----|--------|---------------|
-| get | -      | desc balabala |
+| api     | params     | description                 |
+| ------- | ---------- | --------------------------- |
+| css2obj | (inString) | Transform string to object. |
+| obj2css | (inOjbect) | Transform object to string. |
 
 ## usage
 ```js
 import NxCssText from '@jswork/next-css-text';
 
-// code goes here:
+NxCssText.css2obj('color:#f00; background-color:red; width:100px; padding:10px 20px;');
+NxCssText.obj2css({
+  color: '#f00',
+  backgroundColor: 'red',
+  width: '100px',
+  padding: '10px 20px'
+});
 ```
 
 ## license
