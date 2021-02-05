@@ -3,7 +3,7 @@
  * description: Dom css text.
  * homepage: https://github.com/afeiship/next-css-text
  * version: 1.0.0
- * date: 2021-01-30 21:27:01
+ * date: 2021-02-05 16:28:57
  * license: MIT
  */
 
@@ -15,6 +15,7 @@
   var NxCssText = nx.declare('nx.CssText', {
     statics: {
       css2obj: function (inString) {
+        if (!inString) return null;
         var obj = {},
           s = inString
             .toLowerCase()

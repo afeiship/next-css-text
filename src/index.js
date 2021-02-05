@@ -6,6 +6,7 @@
   var NxCssText = nx.declare('nx.CssText', {
     statics: {
       css2obj: function (inString) {
+        if (!inString) return null;
         var obj = {},
           s = inString
             .toLowerCase()

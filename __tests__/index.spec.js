@@ -2,6 +2,7 @@
   const NxCssText = require('../src');
 
   describe('NxCssText.methods', function () {
+
     test('NxCssText:obj2css obj should transform to string', () => {
       const data = {
         color: '#f00',
@@ -23,6 +24,11 @@
         width: '100px',
         padding: '10px 20px'
       });
+    });
+
+    test('css2obj emtpy css should get null', () => {
+      expect(NxCssText.css2obj('')).toBe(null);
+      expect(NxCssText.css2obj(undefined)).toBe(null);
     });
   });
 })();
